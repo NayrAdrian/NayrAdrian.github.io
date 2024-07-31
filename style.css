@@ -80,3 +80,14 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+/* repositories */
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}

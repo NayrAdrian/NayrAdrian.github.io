@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>NayrAdrian</h1>
+            <h1>Nayr Adrian</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -28,21 +28,36 @@
     <section id="projects">
         <div class="container">
             <h2>My Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
+            <div id="repo-list">
+                <!-- Repositories will be inserted here by JavaScript -->
             </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of Project 2.</p>
-            </div>
-            <!-- More projects -->
         </div>
     </section>
     <footer>
         <div class="container">
-            <p>&copy; 2024 NayrAdrian. All rights reserved.</p>
+            <p>&copy; 2024 Nayr Adrian. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        async function fetchRepositories() {
+            const response = await fetch('https://api.github.com/users/NayrAdrian/repos');
+            const repos = await response.json();
+
+            const repoList = document.getElementById('repo-list');
+
+            repos.forEach(repo => {
+                const repoDiv = document.createElement('div');
+                repoDiv.className = 'project';
+                repoDiv.innerHTML = `
+                    <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
+                    <p>${repo.description || 'No description available.'}</p>
+                `;
+                repoList.appendChild(repoDiv);
+            });
+        }
+
+        fetchRepositories();
+    </script>
 </body>
 </html>
