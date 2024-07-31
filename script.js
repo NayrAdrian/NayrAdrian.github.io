@@ -22,12 +22,17 @@ const repoImagePaths = {
     "Birthday-Wisher": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img1.jpg",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img3.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img3.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img4.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img5.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img6.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img7.jpg"
     ],
     "Quizzler-App": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img1.jpg",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img3.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img3.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img4.jpg"
     ],
     // Add more repositories and their image paths here
 };
