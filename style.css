@@ -69,7 +69,6 @@ h2 {
 }
 
 /* About Section */
-
 .about-content {
     display: flex;
     align-items: center;
@@ -148,6 +147,7 @@ h2 {
 .secondary:hover {
     background-color: #e1f0fb;
 }
+
 
 .about-image {
     flex: 1;

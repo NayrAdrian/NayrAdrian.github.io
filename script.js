@@ -89,7 +89,7 @@ function setupModal() {
                 const thumbnail = document.createElement("img");
                 thumbnail.src = image;
                 thumbnail.className = "thumbnail";
-                thumbnail.loading = "lazy"; // Add this line
+                thumbnail.loading = "lazy";
                 thumbnail.addEventListener("click", () => {
                     currentImageIndex = index;
                     modalImage.src = currentImages[currentImageIndex];
