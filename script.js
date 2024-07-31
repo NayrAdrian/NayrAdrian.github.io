@@ -52,7 +52,7 @@ async function fetchRepositories() {
         repoDiv.innerHTML = `
             <div class="project-content">
                 <div class="project-preview-container">
-                    <img src="${images[0]}" alt="Project Preview" class="project-preview" data-images='${JSON.stringify(images)}'>
+                    <img src="${images[0]}" alt="Project Preview" class="project-preview" data-images='${JSON.stringify(images)}' loading="lazy">
                 </div>
                 <div class="project-details">
                     <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
@@ -61,6 +61,7 @@ async function fetchRepositories() {
                 </div>
             </div>
         `;
+
         repoList.appendChild(repoDiv);
     });
 
@@ -88,6 +89,7 @@ function setupModal() {
                 const thumbnail = document.createElement("img");
                 thumbnail.src = image;
                 thumbnail.className = "thumbnail";
+                thumbnail.loading = "lazy"; // Add this line
                 thumbnail.addEventListener("click", () => {
                     currentImageIndex = index;
                     modalImage.src = currentImages[currentImageIndex];
@@ -124,3 +126,5 @@ function setupModal() {
 }
 
 fetchRepositories();
+
+
