@@ -1,38 +1,38 @@
 const repoImagePaths = {
     "Habit-Tracker": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img1.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img3.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img3.webp"
     ],
     "Stock-Trading-News-Alert": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img1.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img3.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img3.webp"
     ],
     "Kanye-Quotes": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img1.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img3.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img3.webp"
     ],
     "Rain-Alert": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img1.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img3.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img3.webp"
     ],
     "Birthday-Wisher": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img1.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img3.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img4.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img5.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img6.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img7.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img4.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img5.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img6.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img7.webp"
     ],
     "Quizzler-App": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img1.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img2.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img3.jpg",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img4.jpg"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img4.webp"
     ],
     // Add more repositories and their image paths here
 };
