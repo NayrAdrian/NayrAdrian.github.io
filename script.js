@@ -9,6 +9,11 @@ const repoImagePaths = {
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Stock-Trading-News-Alert-img2.jpg",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Stock-Trading-News-Alert-img3.jpg"
     ],
+    "Kanye-Quotes-img1": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Kanye-Quotes-img1.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Kanye-Quotes-img2.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Kanye-Quotes-img3.jpg"
+    ],
     // Add more repositories and their image paths here
 };
 
