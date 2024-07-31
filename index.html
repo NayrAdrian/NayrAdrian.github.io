@@ -42,14 +42,10 @@
     <!-- Modal for Image Gallery -->
     <div id="modal" class="modal">
         <span class="close">&times;</span>
-        <div class="modal-content">
-            <button class="prev">&lt;</button>
-            <img class="modal-image" id="modal-image">
-            <button class="next">&gt;</button>
-        </div>
-        <div class="thumbnail-container" id="thumbnail-container">
-            <!-- Thumbnails will be inserted here by JavaScript -->
-        </div>
+        <img class="modal-image" id="modal-image">
+        <div class="thumbnail-container" id="thumbnail-container"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
     </div>
 
     <script>
@@ -68,7 +64,7 @@
             repoDiv.innerHTML = `
                 <div class="project-content">
                     <div class="project-preview-container">
-                        <img src="https://github.com/NayrAdrian/NayrAdrian.github.io/raw/main/project1-image1.jpg" alt="Project Preview" class="project-preview" data-images='["https://github.com/NayrAdrian/NayrAdrian.github.io/raw/main/project1-image1.jpg", "https://github.com/NayrAdrian/NayrAdrian.github.io/raw/main/project1-image2.jpg", "https://github.com/NayrAdrian/NayrAdrian.github.io/raw/main/project1-image3.jpg"]'>
+                        <img src="https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/project1-img1.jpg" alt="Project Preview" class="project-preview" data-images='["https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/project1-img1.jpg", "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/project1-img2.jpg", "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/project1-img3.jpg"]'>
                     </div>
                     <div class="project-details">
                         <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
@@ -76,6 +72,7 @@
                         <p><small>Last updated: ${new Date(repo.updated_at).toLocaleDateString()}</small></p>
                     </div>
                 </div>
+
             `;
             repoList.appendChild(repoDiv);
         });
@@ -140,6 +137,7 @@
     }
 
     fetchRepositories();
+
 </script>
 
 </body>
