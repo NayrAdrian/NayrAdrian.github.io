@@ -91,3 +91,8 @@ footer {
 .project a:hover {
     text-decoration: underline;
 }
+
+.project small {
+    color: #666;
+    font-size: 0.875rem;
+}
