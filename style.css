@@ -20,7 +20,7 @@ header {
     padding: 1rem 0;
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensures the header stays above other content */
+    z-index: 1000;
 }
 
 header .container {
@@ -68,15 +68,83 @@ h2 {
     text-align: center;
 }
 
-#about p, .project p {
-    text-align: center;
-    margin: 1rem 0;
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
 
-.project {
-    background: #fff;
+.about-text {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 2rem;
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
-    padding: 1rem;
+}
+
+.highlight-name {
+    color: #0077B5;
+}
+
+.about-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+    color: #666;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.primary {
+    background-color: #0077B5;
+    color: #fff;
+}
+
+.primary:hover {
+    background-color: #005a8b;
+}
+
+.secondary {
+    background-color: transparent;
+    color: #0077B5;
+    border: 2px solid #0077B5;
+}
+
+.secondary:hover {
+    background-color: #e1f0fb;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 300px;
+    margin-left: 2rem;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -88,27 +156,12 @@ footer {
     margin-top: 2rem;
 }
 
-/* repositories */
-
-.project a {
-    color: #333;
-    text-decoration: none;
-}
-
-.project a:hover {
-    text-decoration: underline;
-}
-
-.project small {
-    color: #666;
-    font-size: 0.875rem;
-}
-
-/* Project Preview */
-
+/* Project Section */
 .project {
-    display: flex;
-    align-items: center;
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-content {
@@ -135,7 +188,6 @@ footer {
     flex: 1;
 }
 
-/* Modal styles */
 .modal {
     display: none;
     position: fixed;
@@ -146,8 +198,7 @@ footer {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .modal-content {
@@ -179,9 +230,9 @@ footer {
     margin: auto;
     display: block;
     width: 100%;
-    max-width: 90vw; /* 90% of the viewport width */
-    max-height: 80vh; /* 80% of the viewport height */
-    object-fit: contain; /* Ensures the image fits within the specified dimensions */
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
 }
 
 .prev,
@@ -207,7 +258,7 @@ footer {
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .thumbnail-container {
