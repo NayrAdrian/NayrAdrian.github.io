@@ -68,26 +68,38 @@ h2 {
     text-align: center;
 }
 
-#about .about-content {
+/* About Section */
+
+.about-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 2rem 0;
+    gap: 2rem; /* Space between image and text */
+}
+
+.about-image {
+    flex: 1;
+    max-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-text {
-    flex: 1;
-    max-width: 600px;
-    margin-right: 2rem;
+    flex: 2;
 }
 
 .about-text h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #333;
 }
 
-.highlight-name {
+.about-text h1 .highlight-name {
     color: #0077B5;
 }
 
@@ -98,9 +110,10 @@ h2 {
 }
 
 .about-text p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     color: #666;
     font-size: 1rem;
+    line-height: 1.6;
 }
 
 .buttons {
@@ -144,7 +157,7 @@ h2 {
 
 .about-image img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
