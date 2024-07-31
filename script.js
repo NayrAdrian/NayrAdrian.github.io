@@ -1,8 +1,8 @@
 const repoImagePaths = {
     "Habit-Tracker": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img1.webp",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img2.webp",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Habit-Tracker-img3.webp"
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/tree/main/images/Habit-Tracker-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/tree/main/images/Habit-Tracker-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/tree/main/images/Habit-Tracker-img3.webp"
     ],
     "Stock-Trading-News-Alert": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img1.webp",
