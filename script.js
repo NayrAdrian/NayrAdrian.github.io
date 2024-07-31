@@ -37,6 +37,7 @@ const repoImagePaths = {
     // Add more repositories and their image paths here
 };
 
+
 async function fetchRepositories() {
     const response = await fetch('https://api.github.com/users/NayrAdrian/repos');
     const repos = await response.json();
