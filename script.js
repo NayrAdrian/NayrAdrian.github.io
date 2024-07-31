@@ -14,6 +14,21 @@ const repoImagePaths = {
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Kanye-Quotes-img2.jpg",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Kanye-Quotes-img3.jpg"
     ],
+    "Rain-Alert": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Rain-Alert-img1.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Rain-Alert-img2.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Rain-Alert-img3.jpg"
+    ],
+    "Birthday-Wisher": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img1.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img2.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Birthday-Wisher-img3.jpg"
+    ],
+    "Quizzler-App": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img1.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img2.jpg",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/Quizzler-App-img3.jpg"
+    ],
     // Add more repositories and their image paths here
 };
 
