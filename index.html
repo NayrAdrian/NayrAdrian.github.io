@@ -53,9 +53,14 @@
                 const repoDiv = document.createElement('div');
                 repoDiv.className = 'project';
                 repoDiv.innerHTML = `
-                    <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
-                    <p>${repo.description || 'No description available.'}</p>
-                    <p><small>Last updated: ${new Date(repo.updated_at).toLocaleDateString()}</small></p>
+                    <div class="project-content">
+                        <img src="path/to/placeholder-image.jpg" alt="Project Preview" class="project-preview">
+                        <div class="project-details">
+                            <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
+                            <p>${repo.description || 'No description available.'}</p>
+                            <p><small>Last updated: ${new Date(repo.updated_at).toLocaleDateString()}</small></p>
+                        </div>
+                    </div>
                 `;
                 repoList.appendChild(repoDiv);
             });

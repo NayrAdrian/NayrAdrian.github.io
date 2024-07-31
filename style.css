@@ -96,3 +96,29 @@ footer {
     color: #666;
     font-size: 0.875rem;
 }
+
+/* project preview */
+
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.project-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-details {
+    flex: 1;
+}
