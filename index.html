@@ -3,22 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nayr Adrian's Portfolio</title>
+    <title>Ryan Adrian's Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100">
     <header class="bg-gray-800 text-white py-4 sticky top-0 z-50">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-xl">My Portfolio</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#about" class="hover:underline">About</a></li>
-                    <li><a href="#projects" class="hover:underline">Projects</a></li>
-                    <li><a href="#contact" class="hover:underline">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/>
+                </svg>
+                <span class="font-semibold text-xl tracking-tight">Nayr Adrian</span>
+            </div>
+            <div class="block lg:hidden">
+                <button id="menu-button" class="flex items-center px-3 py-2 border rounded text-white border-gray-600 hover:text-gray-400 hover:border-gray-400">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="menu" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block">
+                <div class="text-sm lg:flex-grow">
+                    <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-gray-400 mr-4">About</a>
+                    <a href="#projects" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-gray-400 mr-4">Projects</a>
+                    <a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-gray-400">Contact</a>
+                </div>
+                <div>
+                    <a href="resume.pdf" download class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 lg:mt-0">Download Resume</a>
+                </div>
+            </div>
+        </nav>
     </header>
     <section id="about" class="py-12">
         <div class="container mx-auto flex flex-col md:flex-row items-center gap-8">
@@ -28,7 +44,9 @@
             <div class="w-full md:w-2/3">
                 <h1 class="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Hi, I'm <span class="text-blue-500">Ryan Adrian</span></h1>
                 <h3 class="text-xl mb-4 text-gray-700">Aspiring Software Developer</h3>
-                <p class="mb-4 text-gray-600">With a passion for coding and a commitment to lifelong learning...</p>
+                <p class="mb-4 text-gray-600">With a passion for coding and a commitment to lifelong learning. Currently, I'm on an exciting journey through the "100 Days of Code: The Complete Python Pro Bootcamp" by Dr. Angela Yu, honing my skills and preparing to transition into a career in programming..</p>
+                <p class="mb-4 text-gray-600">With a background that includes a diverse set of projects, from habit tracking applications to stock trading news alerts, I thrive on solving complex problems and turning ideas into reality. My goal is to join a dynamic team where I can continue to grow, learn, and contribute to innovative solutions.</p>
+                <p class="mb-4 text-gray-600">I invite you to explore my projects, which showcase my dedication to coding and my ability to adapt to new challenges. Whether you're looking for a driven developer to join your team or simply interested in my work, feel free to reach out. Let's connect and create something amazing together!</p>
                 <div class="flex space-x-4">
                     <a href="#contact" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Hire Me</a>
                     <a href="#projects" class="border border-blue-500 text-blue-500 py-2 px-4 rounded hover:bg-blue-100">See Projects</a>
@@ -59,6 +77,12 @@
         </div>
     </div>
 
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
