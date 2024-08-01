@@ -49,16 +49,16 @@ async function fetchRepositories() {
     repos.forEach(repo => {
         const images = repoImagePaths[repo.name] || ["https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/default-img.jpg"];
         const repoDiv = document.createElement('div');
-        repoDiv.className = 'project';
+        repoDiv.className = 'project bg-white p-4 shadow rounded';
         repoDiv.innerHTML = `
-            <div class="project-content">
-                <div class="project-preview-container">
-                    <img src="${images[0]}" alt="Project Preview" class="project-preview" data-images='${JSON.stringify(images)}' loading="lazy">
+            <div class="project-content flex items-center space-x-4">
+                <div class="project-preview-container relative">
+                    <img src="${images[0]}" alt="Project Preview" class="project-preview w-24 h-24 object-cover rounded shadow cursor-pointer" data-images='${JSON.stringify(images)}' loading="lazy">
                 </div>
-                <div class="project-details">
-                    <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
-                    <p>${repo.description || 'No description available.'}</p>
-                    <p><small>Last updated: ${new Date(repo.updated_at).toLocaleDateString()}</small></p>
+                <div class="project-details flex-1">
+                    <h3 class="text-lg font-bold"><a href="${repo.html_url}" target="_blank" class="text-blue-500 hover:underline">${repo.name}</a></h3>
+                    <p class="text-gray-700">${repo.description || 'No description available.'}</p>
+                    <p class="text-sm text-gray-500"><small>Last updated: ${new Date(repo.updated_at).toLocaleDateString()}</small></p>
                 </div>
             </div>
         `;
@@ -89,7 +89,7 @@ function setupModal() {
             currentImages.forEach((image, index) => {
                 const thumbnail = document.createElement("img");
                 thumbnail.src = image;
-                thumbnail.className = "thumbnail";
+                thumbnail.className = "thumbnail w-24 h-24 object-cover m-1 cursor-pointer opacity-60 hover:opacity-100";
                 thumbnail.loading = "lazy";
                 thumbnail.addEventListener("click", () => {
                     currentImageIndex = index;
@@ -127,5 +127,3 @@ function setupModal() {
 }
 
 fetchRepositories();
-
-
