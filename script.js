@@ -47,7 +47,7 @@ async function fetchRepositories() {
     const repoList = document.getElementById('repo-list');
 
     repos.forEach(repo => {
-        const images = repoImagePaths[repo.name] || ["https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/default-img.jpg"];
+        const images = repoImagePaths[repo.name] || ["https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/default-img.jpg"];
         const repoDiv = document.createElement('div');
         repoDiv.className = 'project';
         repoDiv.innerHTML = `
