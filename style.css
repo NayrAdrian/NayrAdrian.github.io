@@ -94,3 +94,24 @@
 html {
     scroll-behavior: smooth;
 }
+
+.tech-logo {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.tech-logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.tech-icon {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+}
+
+@media (max-width: 768px) {
+    .tech-icon {
+        width: 40px; /* Adjust size for smaller screens */
+        height: 40px; /* Adjust size for smaller screens */
+    }
+}
