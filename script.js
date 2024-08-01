@@ -200,3 +200,19 @@ function setupModal() {
 }
 
 fetchRepositories();
+
+// Show or hide the "Back to Top" button
+window.addEventListener('scroll', function() {
+    const button = document.getElementById('back-to-top');
+    if (window.scrollY > 300) { // Show button when scrolled more than 300px
+        button.classList.add('show');
+    } else {
+        button.classList.remove('show');
+    }
+});
+
+// Smooth scroll to top
+document.getElementById('back-to-top').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+

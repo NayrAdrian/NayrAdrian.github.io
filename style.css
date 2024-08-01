@@ -131,7 +131,22 @@ html {
 
 /* Improve visibility for the navbar */
 header {
+    padding: 1rem 0; /* Reduce the padding to make the navbar thinner */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 1.5rem; /* Adjust font size for the header title if needed */
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem; /* Adjust the space between nav items */
+}
+
+nav a {
+    font-size: 0.875rem; /* Reduce font size of nav links */
+    padding: 0.5rem 1rem; /* Adjust padding for nav links */
 }
 
 /* Enhance footer styling */
@@ -156,3 +171,30 @@ a:hover,
 a:focus {
     color: #000;
 }
+
+/* Ensure the button is initially visible */
+#back-to-top {
+    display: block; /* Ensure it's visible */
+    z-index: 1000; /* Ensure it stays on top */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: #1d4ed8; /* Tailwind blue-500 */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    opacity: 0; /* Start as hidden */
+    transform: translateY(100px); /* Start off screen */
+}
+
+#back-to-top.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
