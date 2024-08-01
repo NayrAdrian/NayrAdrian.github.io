@@ -115,3 +115,44 @@ html {
         height: 40px; /* Adjust size for smaller screens */
     }
 }
+/* Additional styling for tech icons */
+.tech-icon {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Ensure responsiveness for tech logos */
+@media (max-width: 768px) {
+    .tech-logo {
+        transform: scale(1.05); /* Slightly smaller scale for smaller screens */
+    }
+}
+
+/* Improve visibility for the navbar */
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhance footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Improved styling for buttons */
+a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #000;
+}
