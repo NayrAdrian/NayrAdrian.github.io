@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/r-favicon-color.png">
 
+    <!-- EmailJS script -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init("i40fyzQVZpcz3MHKx");
+    </script>
 </head>
 <body class="bg-gray-100">
     <header class="bg-gray-800 text-white py-2 sticky top-0 z-50">
@@ -155,7 +160,7 @@
                 <div class="w-full md:w-1/2 flex flex-col">
                     <div class="flex flex-col flex-grow">
                         <h3 class="text-xl font-semibold mb-4">Send Me a Message</h3>
-                        <form action="mailto:NayrAdrian24@gmail.com" method="POST" enctype="multipart/form-data" class="bg-white p-8 shadow-lg rounded-lg flex flex-col flex-grow">
+                        <form id="contact-form">
                             <div class="grid grid-cols-1 gap-6 mb-4">
                                 <div>
                                     <label for="name" class="block text-gray-700 mb-2">Name</label>

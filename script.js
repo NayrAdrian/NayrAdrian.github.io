@@ -216,3 +216,17 @@ document.getElementById('back-to-top').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const form = event.target;
+
+    emailjs.sendForm('service_8nm1nju', 'template_oogguw5', form)
+        .then(function(response) {
+            // Alert user and clear form fields
+            alert('Message sent successfully!');
+            form.reset(); // Clear form fields
+        }, function(error) {
+            alert('Failed to send message. Please try again.');
+        });
+});
