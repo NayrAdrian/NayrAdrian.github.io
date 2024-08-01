@@ -34,7 +34,80 @@ const repoImagePaths = {
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img3.webp",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img4.webp"
     ],
-    // Add more repositories and their image paths here
+    "ISS-Overhead-Notifier": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/ISS-Overhead-Notifier-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/ISS-Overhead-Notifier-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/ISS-Overhead-Notifier-img3.webp"
+    ],
+    "Mile-to-Km-Converter": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Mile-to-Km-Converter-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Mile-to-Km-Converter-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Mile-to-Km-Converter-img3.webp"
+    ],
+    "Flash-Card-App": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flash-Card-App-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flash-Card-App-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flash-Card-App-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flash-Card-App-img4.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flash-Card-App-img5.webp"
+    ],
+    "NATO-Alphabet": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/NATO-Alphabet-img1.webp"
+    ],
+    "Password-Manager": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Password-Manager-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Password-Manager-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Password-Manager-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Password-Manager-img4.webp"
+    ],
+    "Pomodoro-GUI-App": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Pomodoro-GUI-App-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Pomodoro-GUI-App-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Pomodoro-GUI-App-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Pomodoro-GUI-App-img4.webp"
+    ],
+    "PongGame": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/PongGame-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/PongGame-img2.webp"
+    ],
+    "Quizzler-App": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img4.webp"
+    ],
+    "Rain-Alert": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img4.webp"
+    ],
+    "SnakeGame": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/SnakeGame-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/SnakeGame-img2.webp"
+    ],
+    "Stock-Trading-News-Alert": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Stock-Trading-News-Alert-img2.webp"
+    ],
+    "Sun-Up-Sun-Down": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Sun-Up-Sun-Down-img1.webp"
+    ],
+    "TurtleCrossing": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/TurtleCrossing-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/TurtleCrossing-img2.webp"
+    ],
+    "TurtleRace": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/TurtleRace-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/TurtleRace-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/TurtleRace-img3.webp",
+    ],
+    "U.S-States-Game": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/U.S-States-Game-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/U.S-States-Game-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/U.S-States-Game-img3.webp"
+    ],
+    // Add more repositories and image paths here
 };
 
 
