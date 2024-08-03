@@ -214,6 +214,128 @@ window.addEventListener('scroll', function() {
     }
 });
 
+// Activity Feed
+const activityFeed = document.getElementById('activity-feed');
+const prevPageButton = document.getElementById('prev-page');
+const nextPageButton = document.getElementById('next-page');
+const lastPageButton = document.getElementById('last-page');
+const pageNumbersContainer = document.getElementById('page-numbers');
+
+let currentPage = 1;
+const itemsPerPage = 5;
+let events = [];
+
+function fetchEvents() {
+    fetch('https://api.github.com/users/NayrAdrian/events')
+        .then(response => response.json())
+        .then(data => {
+            events = data;
+            displayEvents();
+            updatePaginationControls();
+        })
+        .catch(error => console.error('Error fetching activity events:', error));
+}
+
+function displayEvents() {
+    activityFeed.innerHTML = '';
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const paginatedEvents = events.slice(startIndex, endIndex);
+
+    paginatedEvents.forEach(event => {
+        const eventItem = document.createElement('div');
+        eventItem.classList.add('event-item', 'p-4', 'border', 'rounded', 'bg-white', 'shadow');
+
+        let eventType;
+        let commitDescriptions = '';
+        switch(event.type) {
+            case 'PushEvent':
+                eventType = 'Pushed to';
+                commitDescriptions = event.payload.commits.map(commit => `<li>${commit.message}</li>`).join('');
+                break;
+            case 'PullRequestEvent':
+                eventType = 'Opened a pull request in';
+                break;
+            case 'IssuesEvent':
+                eventType = `Issue ${event.payload.action} in`;
+                break;
+            // Add more event types as needed
+            default:
+                eventType = event.type.replace('Event', '');
+        }
+
+        eventItem.innerHTML = `
+            <p><strong>${eventType}</strong> <a href="${event.repo.url.replace('api.', '').replace('repos/', '')}" target="_blank" class="text-blue-500 hover:underline">${event.repo.name}</a></p>
+            <p class="text-gray-600 text-sm">${new Date(event.created_at).toLocaleString()}</p>
+            ${commitDescriptions ? `<ul class="list-disc pl-5">${commitDescriptions}</ul>` : ''}
+        `;
+
+        activityFeed.appendChild(eventItem);
+    });
+
+    // Update pagination buttons
+    prevPageButton.disabled = currentPage === 1;
+    nextPageButton.disabled = endIndex >= events.length;
+    lastPageButton.disabled = endIndex >= events.length;
+}
+
+function updatePaginationControls() {
+    const totalPages = Math.ceil(events.length / itemsPerPage);
+    pageNumbersContainer.innerHTML = '';
+
+    let startPage = Math.max(1, currentPage - 2);
+    let endPage = Math.min(totalPages, startPage + 4);
+
+    if (endPage - startPage < 4) {
+        startPage = Math.max(1, endPage - 4);
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+        const pageNumberButton = document.createElement('button');
+        pageNumberButton.classList.add('bg-gray-800', 'text-white', 'py-2', 'px-4', 'rounded', 'hover:bg-gray-700');
+        pageNumberButton.innerText = i;
+
+        if (i === currentPage) {
+            pageNumberButton.classList.add('bg-blue-800', 'cursor-default');
+        }
+
+        pageNumberButton.addEventListener('click', () => {
+            currentPage = i;
+            displayEvents();
+            updatePaginationControls();
+        });
+
+        pageNumbersContainer.appendChild(pageNumberButton);
+    }
+}
+
+prevPageButton.addEventListener('click', () => {
+    if (currentPage > 1) {
+        currentPage--;
+        displayEvents();
+        updatePaginationControls();
+    }
+});
+
+nextPageButton.addEventListener('click', () => {
+    if ((currentPage * itemsPerPage) < events.length) {
+        currentPage++;
+        displayEvents();
+        updatePaginationControls();
+    }
+});
+
+lastPageButton.addEventListener('click', () => {
+    const totalPages = Math.ceil(events.length / itemsPerPage);
+    currentPage = totalPages;
+    displayEvents();
+    updatePaginationControls();
+});
+
+// Fetch and display events on page load
+fetchEvents();
+
+
 // Smooth scroll to top
 document.getElementById('back-to-top').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
