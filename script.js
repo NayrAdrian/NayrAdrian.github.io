@@ -107,6 +107,13 @@ const repoImagePaths = {
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/U.S-States-Game-img2.webp",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/U.S-States-Game-img3.webp"
     ],
+    "Workout-Tracking": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Workout-Tracking-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Workout-Tracking-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Workout-Tracking-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Workout-Tracking-img4.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Workout-Tracking-img5.webp"
+    ],
     "NayrAdrian.github.io": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/r-high-resolution-logo-white.png"
     ],
