@@ -198,3 +198,32 @@ a:focus {
 }
 
 
+/* Ensure responsiveness for tech logos */
+@media (max-width: 768px) {
+    .tech-logo {
+        transform: scale(1.05); /* Slightly smaller scale for smaller screens */
+    }
+    .tech-icon {
+        width: 40px; /* Adjust size for smaller screens */
+        height: 40px; /* Adjust size for smaller screens */
+    }
+    .modal-content {
+        width: 95%; /* Adjust modal content width for smaller screens */
+    }
+    .thumbnail {
+        width: 80px; /* Adjust thumbnail size for smaller screens */
+        height: 80px;
+    }
+    nav ul {
+        flex-direction: column; /* Stack nav items vertically on smaller screens */
+        gap: 0.5rem; /* Adjust the space between nav items */
+    }
+    header h1 {
+        font-size: 1.25rem; /* Adjust font size for the header title if needed */
+    }
+    nav a {
+        font-size: 0.75rem; /* Reduce font size of nav links */
+        padding: 0.5rem; /* Adjust padding for nav links */
+    }
+}
+

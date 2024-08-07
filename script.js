@@ -14,11 +14,6 @@ const repoImagePaths = {
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img2.webp",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Kanye-Quotes-img3.webp"
     ],
-    "Rain-Alert": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img1.webp",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img2.webp",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img3.webp"
-    ],
     "Birthday-Wisher": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img1.webp",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Birthday-Wisher-img2.webp",
@@ -69,12 +64,6 @@ const repoImagePaths = {
     "PongGame": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/PongGame-img1.webp",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/PongGame-img2.webp"
-    ],
-    "Quizzler-App": [
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img1.webp",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img2.webp",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img3.webp",
-        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Quizzler-App-img4.webp"
     ],
     "Rain-Alert": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Rain-Alert-img1.webp",
