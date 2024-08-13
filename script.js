@@ -103,6 +103,13 @@ const repoImagePaths = {
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Workout-Tracking-img4.webp",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Workout-Tracking-img5.webp"
     ],
+    "Flight-Deal-Finder": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flight-Deal-Finder-img1.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flight-Deal-Finder-img2.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flight-Deal-Finder-img3.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flight-Deal-Finder-img4.webp",
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flight-Deal-Finder-img5.webp"
+    ],
     "NayrAdrian.github.io": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/r-high-resolution-logo-white.png"
     ],
