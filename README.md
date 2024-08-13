@@ -10,7 +10,13 @@ Currently, the website is a work in progress with new features and improvements 
 
 **3. Tech Stack:** See the technologies and tools that I use regularly. From Python and JavaScript to CSS and Github, this section provides a glimpse into the skills that drive my development work.
 
-**4. Contact:** Get in touch with me if you’re interested in collaborating or if you have any questions. I welcome the opportunity to connect and explore potential projects or job opportunities.
+**4. Activity:** Check out my recent activities and updates, including a feed of my latest work and contributions. This section features pagination controls to help you navigate through my updates.
+
+**5. Contact:** Get in touch with me if you’re interested in collaborating or if you have any questions. I welcome the opportunity to connect and explore potential projects or job opportunities. You can also use the contact form to send me a direct message.
+
+**6. Back to Top Button**: Easily navigate back to the top of the page with a convenient button located at the bottom right corner of the site.
+
+**7. Image Gallery Modal**: View a collection of images related to my projects or other aspects of my portfolio through an interactive modal gallery.
 
 **What’s Next:** This site is constantly evolving, and I’m excited to add more features and projects in the near future. Stay tuned for updates as I continue to refine and expand my portfolio.
 
