@@ -110,6 +110,9 @@ const repoImagePaths = {
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flight-Deal-Finder-img4.webp",
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Flight-Deal-Finder-img5.webp"
     ],
+    "Screen-Gems-100-Movies-You-Cant-Miss": [
+        "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/images/Screen-Gems-100-Movies-You-Cant-Miss-img1.webp"
+    ],
     "NayrAdrian.github.io": [
         "https://raw.githubusercontent.com/NayrAdrian/NayrAdrian.github.io/main/r-high-resolution-logo-white.png"
     ],
